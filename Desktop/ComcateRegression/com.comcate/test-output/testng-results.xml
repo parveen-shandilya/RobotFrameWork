@@ -1,0 +1,1674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="64" passed="56" failed="8" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-22T16:37:07 IST" name="Suite" finished-at="2023-09-22T16:58:24 IST" duration-ms="1277253">
+    <groups>
+    </groups>
+    <test started-at="2023-09-22T16:37:07 IST" name="Test" finished-at="2023-09-22T16:58:24 IST" duration-ms="1277253">
+      <class name="TestCases.PerformInspection">
+        <test-method is-config="true" signature="deleteExistingReport()[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:37:07 IST" name="deleteExistingReport" finished-at="2023-09-22T16:37:07 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteExistingReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:37:07 IST" name="setUp" finished-at="2023-09-22T16:37:10 IST" duration-ms="3350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginAgency()[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:37:10 IST" name="LoginAgency" finished-at="2023-09-22T16:37:40 IST" duration-ms="29594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAgency -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:37:40 IST" name="flushReport" finished-at="2023-09-22T16:37:40 IST" duration-ms="477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.LoginAgency() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=LoginAgency status=SUCCESS method=PerformInspection.LoginAgency()[pri:0, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="CCP_CDP_EditLocation()[pri:1, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:37:40 IST" name="CCP_CDP_EditLocation" finished-at="2023-09-22T16:38:25 IST" duration-ms="44930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CCP_CDP_EditLocation -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:25 IST" name="flushReport" finished-at="2023-09-22T16:38:25 IST" duration-ms="113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.CCP_CDP_EditLocation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CCP_CDP_EditLocation status=SUCCESS method=PerformInspection.CCP_CDP_EditLocation()[pri:1, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_PreRequisite_Contacts()[pri:64, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:25 IST" name="PerformInspection_PreRequisite_Contacts" finished-at="2023-09-22T16:38:26 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_PreRequisite_Contacts -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:26 IST" name="flushReport" finished-at="2023-09-22T16:38:26 IST" duration-ms="85" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_PreRequisite_Contacts()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_PreRequisite_Contacts status=SUCCESS method=PerformInspection.PerformInspection_PreRequisite_Contacts()[pri:64, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_OpenVerificationInspectionInProgressPage()[pri:65, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:26 IST" name="PerformInspection_OpenVerificationInspectionInProgressPage" finished-at="2023-09-22T16:38:28 IST" duration-ms="2472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_OpenVerificationInspectionInProgressPage -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:28 IST" name="flushReport" finished-at="2023-09-22T16:38:28 IST" duration-ms="92" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_OpenVerificationInspectionInProgressPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_OpenVerificationInspectionInProgressPage status=SUCCESS method=PerformInspection.PerformInspection_OpenVerificationInspectionInProgressPage()[pri:65, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_ValidationMessageSection1()[pri:66, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:28 IST" name="PerformInspection_ValidationMessageSection1" finished-at="2023-09-22T16:38:28 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_ValidationMessageSection1 -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:28 IST" name="flushReport" finished-at="2023-09-22T16:38:28 IST" duration-ms="85" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_ValidationMessageSection1() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_ValidationMessageSection1 status=SUCCESS method=PerformInspection.PerformInspection_ValidationMessageSection1()[pri:66, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_VerifySection1Status()[pri:67, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:28 IST" name="PerformInspection_VerifySection1Status" finished-at="2023-09-22T16:38:29 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_VerifySection1Status -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:29 IST" name="flushReport" finished-at="2023-09-22T16:38:29 IST" duration-ms="78" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_VerifySection1Status()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_VerifySection1Status status=SUCCESS method=PerformInspection.PerformInspection_VerifySection1Status()[pri:67, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_AddAViolation()[pri:68, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:29 IST" name="PerformInspection_AddAViolation" finished-at="2023-09-22T16:38:31 IST" duration-ms="2668" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at POM.PerformInspectionUtility.PerformInspection_AddAViolation(PerformInspectionUtility.java:416)
+at TestCases.PerformInspection.PerformInspection_AddAViolation(PerformInspection.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_AddAViolation -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:31 IST" name="flushReport" finished-at="2023-09-22T16:38:32 IST" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_AddAViolation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_AddAViolation status=FAILURE method=PerformInspection.PerformInspection_AddAViolation()[pri:68, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_VerifyVerificationPendingStatusForViolation()[pri:69, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:32 IST" name="PerformInspection_VerifyVerificationPendingStatusForViolation" finished-at="2023-09-22T16:38:32 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_VerifyVerificationPendingStatusForViolation -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:32 IST" name="flushReport" finished-at="2023-09-22T16:38:32 IST" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_VerifyVerificationPendingStatusForViolation()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_VerifyVerificationPendingStatusForViolation status=SUCCESS method=PerformInspection.PerformInspection_VerifyVerificationPendingStatusForViolation()[pri:69, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_SelectAnyToggleButtonForViolation()[pri:70, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:32 IST" name="PerformInspection_SelectAnyToggleButtonForViolation" finished-at="2023-09-22T16:38:32 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_SelectAnyToggleButtonForViolation -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:32 IST" name="flushReport" finished-at="2023-09-22T16:38:32 IST" duration-ms="65" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_SelectAnyToggleButtonForViolation()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_SelectAnyToggleButtonForViolation status=SUCCESS method=PerformInspection.PerformInspection_SelectAnyToggleButtonForViolation()[pri:70, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_VerifyClosedStatusForViolation()[pri:71, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:32 IST" name="PerformInspection_VerifyClosedStatusForViolation" finished-at="2023-09-22T16:38:33 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_VerifyClosedStatusForViolation -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:33 IST" name="flushReport" finished-at="2023-09-22T16:38:33 IST" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_VerifyClosedStatusForViolation()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_VerifyClosedStatusForViolation status=SUCCESS method=PerformInspection.PerformInspection_VerifyClosedStatusForViolation()[pri:71, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_VerifyOpenStatusForViolation()[pri:72, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:33 IST" name="PerformInspection_VerifyOpenStatusForViolation" finished-at="2023-09-22T16:38:33 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_VerifyOpenStatusForViolation -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:33 IST" name="flushReport" finished-at="2023-09-22T16:38:33 IST" duration-ms="67" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_VerifyOpenStatusForViolation()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_VerifyOpenStatusForViolation status=SUCCESS method=PerformInspection.PerformInspection_VerifyOpenStatusForViolation()[pri:72, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_VerifyContinueButtonPresence()[pri:73, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:33 IST" name="PerformInspection_VerifyContinueButtonPresence" finished-at="2023-09-22T16:38:33 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_VerifyContinueButtonPresence -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:33 IST" name="flushReport" finished-at="2023-09-22T16:38:33 IST" duration-ms="51" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_VerifyContinueButtonPresence()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_VerifyContinueButtonPresence status=SUCCESS method=PerformInspection.PerformInspection_VerifyContinueButtonPresence()[pri:73, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_OpenConfirmationPopupForCloseCaseButton()[pri:74, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:33 IST" name="PerformInspection_OpenConfirmationPopupForCloseCaseButton" finished-at="2023-09-22T16:38:33 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_OpenConfirmationPopupForCloseCaseButton -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:33 IST" name="flushReport" finished-at="2023-09-22T16:38:33 IST" duration-ms="63" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_OpenConfirmationPopupForCloseCaseButton()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_OpenConfirmationPopupForCloseCaseButton status=SUCCESS method=PerformInspection.PerformInspection_OpenConfirmationPopupForCloseCaseButton()[pri:74, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_CloseConfirmationPopup()[pri:75, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:33 IST" name="PerformInspection_CloseConfirmationPopup" finished-at="2023-09-22T16:38:40 IST" duration-ms="6904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_CloseConfirmationPopup -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:40 IST" name="flushReport" finished-at="2023-09-22T16:38:40 IST" duration-ms="67" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_CloseConfirmationPopup()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_CloseConfirmationPopup status=SUCCESS method=PerformInspection.PerformInspection_CloseConfirmationPopup()[pri:75, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_VerifySection2Title()[pri:76, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:40 IST" name="PerformInspection_VerifySection2Title" finished-at="2023-09-22T16:38:41 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_VerifySection2Title -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:41 IST" name="flushReport" finished-at="2023-09-22T16:38:41 IST" duration-ms="65" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_VerifySection2Title()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_VerifySection2Title status=SUCCESS method=PerformInspection.PerformInspection_VerifySection2Title()[pri:76, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_OpenCloseCasePopup()[pri:77, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:41 IST" name="PerformInspection_OpenCloseCasePopup" finished-at="2023-09-22T16:38:41 IST" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_OpenCloseCasePopup -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:41 IST" name="flushReport" finished-at="2023-09-22T16:38:41 IST" duration-ms="62" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_OpenCloseCasePopup()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_OpenCloseCasePopup status=SUCCESS method=PerformInspection.PerformInspection_OpenCloseCasePopup()[pri:77, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_VerifyVoluntaryToggleButtonState()[pri:78, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:41 IST" name="PerformInspection_VerifyVoluntaryToggleButtonState" finished-at="2023-09-22T16:38:41 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_VerifyVoluntaryToggleButtonState -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:41 IST" name="flushReport" finished-at="2023-09-22T16:38:42 IST" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_VerifyVoluntaryToggleButtonState()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_VerifyVoluntaryToggleButtonState status=SUCCESS method=PerformInspection.PerformInspection_VerifyVoluntaryToggleButtonState()[pri:78, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_SelectForcedToggleButton()[pri:79, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:42 IST" name="PerformInspection_SelectForcedToggleButton" finished-at="2023-09-22T16:38:42 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_SelectForcedToggleButton -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:42 IST" name="flushReport" finished-at="2023-09-22T16:38:42 IST" duration-ms="64" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_SelectForcedToggleButton()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_SelectForcedToggleButton status=SUCCESS method=PerformInspection.PerformInspection_SelectForcedToggleButton()[pri:79, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_CloseCloseCasePopup()[pri:80, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:42 IST" name="PerformInspection_CloseCloseCasePopup" finished-at="2023-09-22T16:38:47 IST" duration-ms="4915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_CloseCloseCasePopup -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:47 IST" name="flushReport" finished-at="2023-09-22T16:38:47 IST" duration-ms="44" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_CloseCloseCasePopup()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_CloseCloseCasePopup status=SUCCESS method=PerformInspection.PerformInspection_CloseCloseCasePopup()[pri:80, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_AddInspectionNote()[pri:81, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:47 IST" name="PerformInspection_AddInspectionNote" finished-at="2023-09-22T16:38:47 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_AddInspectionNote -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:47 IST" name="flushReport" finished-at="2023-09-22T16:38:47 IST" duration-ms="54" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_AddInspectionNote()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_AddInspectionNote status=SUCCESS method=PerformInspection.PerformInspection_AddInspectionNote()[pri:81, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_AddAttachment()[pri:82, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:47 IST" name="PerformInspection_AddAttachment" finished-at="2023-09-22T16:38:54 IST" duration-ms="6741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_AddAttachment -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:54 IST" name="flushReport" finished-at="2023-09-22T16:38:54 IST" duration-ms="41" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_AddAttachment()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_AddAttachment status=SUCCESS method=PerformInspection.PerformInspection_AddAttachment()[pri:82, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_ExpandSection2OnContinue()[pri:83, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:54 IST" name="PerformInspection_ExpandSection2OnContinue" finished-at="2023-09-22T16:38:55 IST" duration-ms="777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_ExpandSection2OnContinue -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:55 IST" name="flushReport" finished-at="2023-09-22T16:38:55 IST" duration-ms="55" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_ExpandSection2OnContinue()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_ExpandSection2OnContinue status=SUCCESS method=PerformInspection.PerformInspection_ExpandSection2OnContinue()[pri:83, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_VerifySection1Label()[pri:84, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:55 IST" name="PerformInspection_VerifySection1Label" finished-at="2023-09-22T16:38:55 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_VerifySection1Label -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:55 IST" name="flushReport" finished-at="2023-09-22T16:38:55 IST" duration-ms="57" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_VerifySection1Label()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_VerifySection1Label status=SUCCESS method=PerformInspection.PerformInspection_VerifySection1Label()[pri:84, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_EditVerifyViolationSection()[pri:85, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:38:55 IST" name="PerformInspection_EditVerifyViolationSection" finished-at="2023-09-22T16:40:58 IST" duration-ms="123597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_EditVerifyViolationSection -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:40:58 IST" name="flushReport" finished-at="2023-09-22T16:40:59 IST" duration-ms="58" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_EditVerifyViolationSection()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_EditVerifyViolationSection status=SUCCESS method=PerformInspection.PerformInspection_EditVerifyViolationSection()[pri:85, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_VerifyFirstNoticeState()[pri:86, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:40:59 IST" name="PerformInspection_VerifyFirstNoticeState" finished-at="2023-09-22T16:42:36 IST" duration-ms="97291" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class='notice-list row']//button)[2] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class='notice-list row']//button)[2] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at CommonMethods.Helper.findElement(Helper.java:514)
+at POM.PerformInspectionUtility.PerformInspection_VerifyFirstNoticeState(PerformInspectionUtility.java:703)
+at TestCases.PerformInspection.PerformInspection_VerifyFirstNoticeState(PerformInspection.java:183)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_VerifyFirstNoticeState -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:42:36 IST" name="flushReport" finished-at="2023-09-22T16:42:38 IST" duration-ms="2339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_VerifyFirstNoticeState() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_VerifyFirstNoticeState status=FAILURE method=PerformInspection.PerformInspection_VerifyFirstNoticeState()[pri:86, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_SelectAnyNotice()[pri:87, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:42:38 IST" name="PerformInspection_SelectAnyNotice" finished-at="2023-09-22T16:44:41 IST" duration-ms="123273" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='notice-list row']//button[2]"}
+  (Session info: chrome=115.0.5790.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [34519603af658fce113f78f5281237a6, findElement {using=xpath, value=//div[@class='notice-list row']//button[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='notice-list row']//button[2]"}
+  (Session info: chrome=115.0.5790.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [34519603af658fce113f78f5281237a6, findElement {using=xpath, value=//div[@class='notice-list row']//button[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6
+at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at CommonMethods.Helper.ClickByJsExecuter(Helper.java:426)
+at POM.PerformInspectionUtility.PerformInspection_SelectAnyNotice(PerformInspectionUtility.java:716)
+at TestCases.PerformInspection.PerformInspection_SelectAnyNotice(PerformInspection.java:188)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_SelectAnyNotice -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:44:41 IST" name="flushReport" finished-at="2023-09-22T16:44:43 IST" duration-ms="1349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_SelectAnyNotice() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_SelectAnyNotice status=FAILURE method=PerformInspection.PerformInspection_SelectAnyNotice()[pri:87, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_VerifySection3Title()[pri:88, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:44:43 IST" name="PerformInspection_VerifySection3Title" finished-at="2023-09-22T16:45:43 IST" duration-ms="60570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_VerifySection3Title -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:45:43 IST" name="flushReport" finished-at="2023-09-22T16:45:43 IST" duration-ms="66" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_VerifySection3Title()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_VerifySection3Title status=SUCCESS method=PerformInspection.PerformInspection_VerifySection3Title()[pri:88, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_SelectNoNoticeRequiredCheckbox()[pri:89, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:45:43 IST" name="PerformInspection_SelectNoNoticeRequiredCheckbox" finished-at="2023-09-22T16:46:46 IST" duration-ms="62467" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //button[text()='No Notice'] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[text()='No Notice'] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:262)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at CommonMethods.Helper.WaitUntilVisibleWE(Helper.java:302)
+at POM.PerformInspectionUtility.PerformInspection_SelectNoNoticeRequiredCheckbox(PerformInspectionUtility.java:756)
+at TestCases.PerformInspection.PerformInspection_SelectNoNoticeRequiredCheckbox(PerformInspection.java:198)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_SelectNoNoticeRequiredCheckbox -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:46:46 IST" name="flushReport" finished-at="2023-09-22T16:46:47 IST" duration-ms="1230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_SelectNoNoticeRequiredCheckbox() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_SelectNoNoticeRequiredCheckbox status=FAILURE method=PerformInspection.PerformInspection_SelectNoNoticeRequiredCheckbox()[pri:89, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_UpdateNoticeIssueDate()[pri:90, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:46:47 IST" name="PerformInspection_UpdateNoticeIssueDate" finished-at="2023-09-22T16:48:19 IST" duration-ms="91933" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for presence of element located by: By.xpath: //button[text()='New Notice'] (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //button[text()='New Notice'] (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at CommonMethods.Helper.ClickOn(Helper.java:329)
+at POM.PerformInspectionUtility.PerformInspection_UpdateNoticeIssueDate(PerformInspectionUtility.java:770)
+at TestCases.PerformInspection.PerformInspection_UpdateNoticeIssueDate(PerformInspection.java:204)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='New Notice']"}
+  (Session info: chrome=115.0.5790.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [34519603af658fce113f78f5281237a6, findElement {using=xpath, value=//button[text()='New Notice']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6
+at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+... 18 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_UpdateNoticeIssueDate -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:48:19 IST" name="flushReport" finished-at="2023-09-22T16:48:19 IST" duration-ms="405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_UpdateNoticeIssueDate() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_UpdateNoticeIssueDate status=FAILURE method=PerformInspection.PerformInspection_UpdateNoticeIssueDate()[pri:90, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_VerifyIssueNoticeAndCompleteInspectionButton()[pri:91, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:48:19 IST" name="PerformInspection_VerifyIssueNoticeAndCompleteInspectionButton" finished-at="2023-09-22T16:48:50 IST" duration-ms="30412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_VerifyIssueNoticeAndCompleteInspectionButton -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:48:50 IST" name="flushReport" finished-at="2023-09-22T16:48:50 IST" duration-ms="44" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_VerifyIssueNoticeAndCompleteInspectionButton()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_VerifyIssueNoticeAndCompleteInspectionButton status=SUCCESS method=PerformInspection.PerformInspection_VerifyIssueNoticeAndCompleteInspectionButton()[pri:91, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_VerifyContinueButtonPresenceOnHtmlSelected()[pri:92, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:48:50 IST" name="PerformInspection_VerifyContinueButtonPresenceOnHtmlSelected" finished-at="2023-09-22T16:49:51 IST" duration-ms="60967" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for presence of any elements located by By.xpath: //div[@class='notice-list row']//button (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of any elements located by By.xpath: //div[@class='notice-list row']//button (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at CommonMethods.Helper.WaitUntilVisibleList(Helper.java:324)
+at POM.PerformInspectionUtility.PerformInspection_VerifyContinueButtonPresenceOnHtmlSelected(PerformInspectionUtility.java:814)
+at TestCases.PerformInspection.PerformInspection_VerifyContinueButtonPresenceOnHtmlSelected(PerformInspection.java:215)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_VerifyContinueButtonPresenceOnHtmlSelected -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:49:51 IST" name="flushReport" finished-at="2023-09-22T16:49:51 IST" duration-ms="351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_VerifyContinueButtonPresenceOnHtmlSelected()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_VerifyContinueButtonPresenceOnHtmlSelected status=FAILURE method=PerformInspection.PerformInspection_VerifyContinueButtonPresenceOnHtmlSelected()[pri:92, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_VerifyViolationsUnderReviewOpenViolations()[pri:93, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:49:51 IST" name="PerformInspection_VerifyViolationsUnderReviewOpenViolations" finished-at="2023-09-22T16:49:53 IST" duration-ms="1471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_VerifyViolationsUnderReviewOpenViolations -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:49:53 IST" name="flushReport" finished-at="2023-09-22T16:49:53 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_VerifyViolationsUnderReviewOpenViolations()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_VerifyViolationsUnderReviewOpenViolations status=SUCCESS method=PerformInspection.PerformInspection_VerifyViolationsUnderReviewOpenViolations()[pri:93, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_UpdateComplyByDate()[pri:94, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:49:53 IST" name="PerformInspection_UpdateComplyByDate" finished-at="2023-09-22T16:49:55 IST" duration-ms="2727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_UpdateComplyByDate -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:49:55 IST" name="flushReport" finished-at="2023-09-22T16:49:55 IST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_UpdateComplyByDate()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_UpdateComplyByDate status=SUCCESS method=PerformInspection.PerformInspection_UpdateComplyByDate()[pri:94, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_UpdateFollowUpInspectionDate()[pri:97, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:49:55 IST" name="PerformInspection_UpdateFollowUpInspectionDate" finished-at="2023-09-22T16:49:56 IST" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_UpdateFollowUpInspectionDate -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:49:56 IST" name="flushReport" finished-at="2023-09-22T16:49:56 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_UpdateFollowUpInspectionDate() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_UpdateFollowUpInspectionDate status=SUCCESS method=PerformInspection.PerformInspection_UpdateFollowUpInspectionDate()[pri:97, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_VerifyLoggedInUserToggleButtonState()[pri:98, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:49:56 IST" name="PerformInspection_VerifyLoggedInUserToggleButtonState" finished-at="2023-09-22T16:49:57 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_VerifyLoggedInUserToggleButtonState -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:49:57 IST" name="flushReport" finished-at="2023-09-22T16:49:57 IST" duration-ms="43" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_VerifyLoggedInUserToggleButtonState() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_VerifyLoggedInUserToggleButtonState status=SUCCESS method=PerformInspection.PerformInspection_VerifyLoggedInUserToggleButtonState()[pri:98, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_ExpandSection3()[pri:99, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:49:57 IST" name="PerformInspection_ExpandSection3" finished-at="2023-09-22T16:49:58 IST" duration-ms="991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_ExpandSection3 -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:49:58 IST" name="flushReport" finished-at="2023-09-22T16:49:58 IST" duration-ms="40" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_ExpandSection3()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_ExpandSection3 status=SUCCESS method=PerformInspection.PerformInspection_ExpandSection3()[pri:99, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_EnterCertifiedMailNumber()[pri:100, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:49:58 IST" name="PerformInspection_EnterCertifiedMailNumber" finished-at="2023-09-22T16:49:58 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_EnterCertifiedMailNumber -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:49:58 IST" name="flushReport" finished-at="2023-09-22T16:49:58 IST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_EnterCertifiedMailNumber()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_EnterCertifiedMailNumber status=SUCCESS method=PerformInspection.PerformInspection_EnterCertifiedMailNumber()[pri:100, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_VerifyRecipientSubSectionPresence()[pri:101, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:49:58 IST" name="PerformInspection_VerifyRecipientSubSectionPresence" finished-at="2023-09-22T16:49:58 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_VerifyRecipientSubSectionPresence -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:49:58 IST" name="flushReport" finished-at="2023-09-22T16:49:58 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_VerifyRecipientSubSectionPresence()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_VerifyRecipientSubSectionPresence status=SUCCESS method=PerformInspection.PerformInspection_VerifyRecipientSubSectionPresence()[pri:101, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_VerifyRecipientNoLongerMandatory()[pri:102, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:49:58 IST" name="PerformInspection_VerifyRecipientNoLongerMandatory" finished-at="2023-09-22T16:50:02 IST" duration-ms="3858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_VerifyRecipientNoLongerMandatory -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:02 IST" name="flushReport" finished-at="2023-09-22T16:50:02 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_VerifyRecipientNoLongerMandatory() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_VerifyRecipientNoLongerMandatory status=SUCCESS method=PerformInspection.PerformInspection_VerifyRecipientNoLongerMandatory()[pri:102, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_SelectMultipleContact()[pri:103, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:02 IST" name="PerformInspection_SelectMultipleContact" finished-at="2023-09-22T16:50:03 IST" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_SelectMultipleContact -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:03 IST" name="flushReport" finished-at="2023-09-22T16:50:03 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_SelectMultipleContact()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_SelectMultipleContact status=SUCCESS method=PerformInspection.PerformInspection_SelectMultipleContact()[pri:103, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_VerifyResponsiblePartySectionPresence()[pri:104, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:03 IST" name="PerformInspection_VerifyResponsiblePartySectionPresence" finished-at="2023-09-22T16:50:03 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_VerifyResponsiblePartySectionPresence -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:03 IST" name="flushReport" finished-at="2023-09-22T16:50:03 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_VerifyResponsiblePartySectionPresence()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_VerifyResponsiblePartySectionPresence status=SUCCESS method=PerformInspection.PerformInspection_VerifyResponsiblePartySectionPresence()[pri:104, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_OpenConfirmationPopupOnExitButton()[pri:105, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:03 IST" name="PerformInspection_OpenConfirmationPopupOnExitButton" finished-at="2023-09-22T16:50:03 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_OpenConfirmationPopupOnExitButton -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:03 IST" name="flushReport" finished-at="2023-09-22T16:50:03 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_OpenConfirmationPopupOnExitButton()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_OpenConfirmationPopupOnExitButton status=SUCCESS method=PerformInspection.PerformInspection_OpenConfirmationPopupOnExitButton()[pri:105, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_CloseConfirmationPopupForExitButto()[pri:106, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:03 IST" name="PerformInspection_CloseConfirmationPopupForExitButto" finished-at="2023-09-22T16:50:08 IST" duration-ms="4908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_CloseConfirmationPopupForExitButto -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:08 IST" name="flushReport" finished-at="2023-09-22T16:50:08 IST" duration-ms="47" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_CloseConfirmationPopupForExitButto()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_CloseConfirmationPopupForExitButto status=SUCCESS method=PerformInspection.PerformInspection_CloseConfirmationPopupForExitButto()[pri:106, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_OpenGenerateNoticepopup()[pri:107, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:08 IST" name="PerformInspection_OpenGenerateNoticepopup" finished-at="2023-09-22T16:50:10 IST" duration-ms="1225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_OpenGenerateNoticepopup -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:10 IST" name="flushReport" finished-at="2023-09-22T16:50:10 IST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_OpenGenerateNoticepopup()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_OpenGenerateNoticepopup status=SUCCESS method=PerformInspection.PerformInspection_OpenGenerateNoticepopup()[pri:107, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_CloseGenerateNoticePopup()[pri:108, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:10 IST" name="PerformInspection_CloseGenerateNoticePopup" finished-at="2023-09-22T16:50:14 IST" duration-ms="4864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_CloseGenerateNoticePopup -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:14 IST" name="flushReport" finished-at="2023-09-22T16:50:14 IST" duration-ms="41" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_CloseGenerateNoticePopup()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_CloseGenerateNoticePopup status=SUCCESS method=PerformInspection.PerformInspection_CloseGenerateNoticePopup()[pri:108, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_AddTextToTextBox()[pri:109, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:14 IST" name="PerformInspection_AddTextToTextBox" finished-at="2023-09-22T16:50:18 IST" duration-ms="3755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_AddTextToTextBox -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:18 IST" name="flushReport" finished-at="2023-09-22T16:50:18 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_AddTextToTextBox()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_AddTextToTextBox status=SUCCESS method=PerformInspection.PerformInspection_AddTextToTextBox()[pri:109, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_VerifyPrintToggleButtonState()[pri:110, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:18 IST" name="PerformInspection_VerifyPrintToggleButtonState" finished-at="2023-09-22T16:50:18 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_VerifyPrintToggleButtonState -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:18 IST" name="flushReport" finished-at="2023-09-22T16:50:18 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_VerifyPrintToggleButtonState()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_VerifyPrintToggleButtonState status=SUCCESS method=PerformInspection.PerformInspection_VerifyPrintToggleButtonState()[pri:110, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_SelectAnyToggleButton()[pri:111, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:18 IST" name="PerformInspection_SelectAnyToggleButton" finished-at="2023-09-22T16:50:18 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_SelectAnyToggleButton -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:18 IST" name="flushReport" finished-at="2023-09-22T16:50:18 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_SelectAnyToggleButton()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_SelectAnyToggleButton status=SUCCESS method=PerformInspection.PerformInspection_SelectAnyToggleButton()[pri:111, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_OpenConfirmationPopupForCompleteInspection()[pri:112, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:18 IST" name="PerformInspection_OpenConfirmationPopupForCompleteInspection" finished-at="2023-09-22T16:50:19 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_OpenConfirmationPopupForCompleteInspection -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:19 IST" name="flushReport" finished-at="2023-09-22T16:50:19 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_OpenConfirmationPopupForCompleteInspection()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_OpenConfirmationPopupForCompleteInspection status=SUCCESS method=PerformInspection.PerformInspection_OpenConfirmationPopupForCompleteInspection()[pri:112, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_CloseConfirmationPopupOnCancel()[pri:113, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:19 IST" name="PerformInspection_CloseConfirmationPopupOnCancel" finished-at="2023-09-22T16:50:24 IST" duration-ms="4873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_CloseConfirmationPopupOnCancel -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:24 IST" name="flushReport" finished-at="2023-09-22T16:50:24 IST" duration-ms="45" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_CloseConfirmationPopupOnCancel()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_CloseConfirmationPopupOnCancel status=SUCCESS method=PerformInspection.PerformInspection_CloseConfirmationPopupOnCancel()[pri:113, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="PerformInspection_VerifyTheNoticeIssued()[pri:114, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:50:24 IST" name="PerformInspection_VerifyTheNoticeIssued" finished-at="2023-09-22T16:52:38 IST" duration-ms="133959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformInspection_VerifyTheNoticeIssued -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:52:38 IST" name="flushReport" finished-at="2023-09-22T16:52:38 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.PerformInspection_VerifyTheNoticeIssued()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformInspection_VerifyTheNoticeIssued status=SUCCESS method=PerformInspection.PerformInspection_VerifyTheNoticeIssued()[pri:114, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="FollowUpInspection_VerifyFollowUpInspectionSubSection()[pri:115, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:52:38 IST" name="FollowUpInspection_VerifyFollowUpInspectionSubSection" finished-at="2023-09-22T16:52:38 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FollowUpInspection_VerifyFollowUpInspectionSubSection -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:52:38 IST" name="flushReport" finished-at="2023-09-22T16:52:38 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.FollowUpInspection_VerifyFollowUpInspectionSubSection()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=FollowUpInspection_VerifyFollowUpInspectionSubSection status=SUCCESS method=PerformInspection.FollowUpInspection_VerifyFollowUpInspectionSubSection()[pri:115, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="FollowUpInspection_OpenEditFollowUpInspectionPopup()[pri:116, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:52:38 IST" name="FollowUpInspection_OpenEditFollowUpInspectionPopup" finished-at="2023-09-22T16:52:39 IST" duration-ms="1108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FollowUpInspection_OpenEditFollowUpInspectionPopup -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:52:39 IST" name="flushReport" finished-at="2023-09-22T16:52:39 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.FollowUpInspection_OpenEditFollowUpInspectionPopup()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=FollowUpInspection_OpenEditFollowUpInspectionPopup status=SUCCESS method=PerformInspection.FollowUpInspection_OpenEditFollowUpInspectionPopup()[pri:116, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="FollowUpInspection_VerifyEditedDetails()[pri:117, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:52:39 IST" name="FollowUpInspection_VerifyEditedDetails" finished-at="2023-09-22T16:52:39 IST" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FollowUpInspection_VerifyEditedDetails -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:52:39 IST" name="flushReport" finished-at="2023-09-22T16:52:39 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.FollowUpInspection_VerifyEditedDetails()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=FollowUpInspection_VerifyEditedDetails status=SUCCESS method=PerformInspection.FollowUpInspection_VerifyEditedDetails()[pri:117, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="FollowUpInspection_OpenFollowUpInspectionInProgressPopup()[pri:118, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:52:39 IST" name="FollowUpInspection_OpenFollowUpInspectionInProgressPopup" finished-at="2023-09-22T16:52:44 IST" duration-ms="4961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FollowUpInspection_OpenFollowUpInspectionInProgressPopup -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:52:44 IST" name="flushReport" finished-at="2023-09-22T16:52:44 IST" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.FollowUpInspection_OpenFollowUpInspectionInProgressPopup()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=FollowUpInspection_OpenFollowUpInspectionInProgressPopup status=SUCCESS method=PerformInspection.FollowUpInspection_OpenFollowUpInspectionInProgressPopup()[pri:118, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="FollowUpInspection_VerifyInspectViolationsHeadersection1()[pri:119, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:52:44 IST" name="FollowUpInspection_VerifyInspectViolationsHeadersection1" finished-at="2023-09-22T16:52:47 IST" duration-ms="2150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FollowUpInspection_VerifyInspectViolationsHeadersection1 -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:52:47 IST" name="flushReport" finished-at="2023-09-22T16:52:47 IST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.FollowUpInspection_VerifyInspectViolationsHeadersection1()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=FollowUpInspection_VerifyInspectViolationsHeadersection1 status=SUCCESS method=PerformInspection.FollowUpInspection_VerifyInspectViolationsHeadersection1()[pri:119, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="FollowUpInspection_PerformFollowUpInspection()[pri:120, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:52:47 IST" name="FollowUpInspection_PerformFollowUpInspection" finished-at="2023-09-22T16:52:59 IST" duration-ms="12144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FollowUpInspection_PerformFollowUpInspection -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:52:59 IST" name="flushReport" finished-at="2023-09-22T16:52:59 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.FollowUpInspection_PerformFollowUpInspection()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=FollowUpInspection_PerformFollowUpInspection status=SUCCESS method=PerformInspection.FollowUpInspection_PerformFollowUpInspection()[pri:120, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="FollowUpInspection_VerifyFollowUpInspection2Title()[pri:121, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:52:59 IST" name="FollowUpInspection_VerifyFollowUpInspection2Title" finished-at="2023-09-22T16:52:59 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FollowUpInspection_VerifyFollowUpInspection2Title -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:52:59 IST" name="flushReport" finished-at="2023-09-22T16:52:59 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.FollowUpInspection_VerifyFollowUpInspection2Title()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=FollowUpInspection_VerifyFollowUpInspection2Title status=SUCCESS method=PerformInspection.FollowUpInspection_VerifyFollowUpInspection2Title()[pri:121, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="CDP_PerformInspection_AddedNoteVerification()[pri:122, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:52:59 IST" name="CDP_PerformInspection_AddedNoteVerification" finished-at="2023-09-22T16:52:59 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CDP_PerformInspection_AddedNoteVerification -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:52:59 IST" name="flushReport" finished-at="2023-09-22T16:52:59 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.CDP_PerformInspection_AddedNoteVerification()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CDP_PerformInspection_AddedNoteVerification status=SUCCESS method=PerformInspection.CDP_PerformInspection_AddedNoteVerification()[pri:122, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="CDP_VerifyOpenAddCaseNotePopup()[pri:123, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:52:59 IST" name="CDP_VerifyOpenAddCaseNotePopup" finished-at="2023-09-22T16:52:59 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CDP_VerifyOpenAddCaseNotePopup -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:52:59 IST" name="flushReport" finished-at="2023-09-22T16:52:59 IST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.CDP_VerifyOpenAddCaseNotePopup()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CDP_VerifyOpenAddCaseNotePopup status=SUCCESS method=PerformInspection.CDP_VerifyOpenAddCaseNotePopup()[pri:123, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="CDP_VerifyPopopClosesOnclickingCancel()[pri:124, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:52:59 IST" name="CDP_VerifyPopopClosesOnclickingCancel" finished-at="2023-09-22T16:53:06 IST" duration-ms="6784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CDP_VerifyPopopClosesOnclickingCancel -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:53:06 IST" name="flushReport" finished-at="2023-09-22T16:53:06 IST" duration-ms="46" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.CDP_VerifyPopopClosesOnclickingCancel()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CDP_VerifyPopopClosesOnclickingCancel status=SUCCESS method=PerformInspection.CDP_VerifyPopopClosesOnclickingCancel()[pri:124, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="CDP_ValidationMessageForAddCaseNoteField()[pri:125, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:53:06 IST" name="CDP_ValidationMessageForAddCaseNoteField" finished-at="2023-09-22T16:54:40 IST" duration-ms="93498" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //label[@title='Add Case Note']/../../span (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //label[@title='Add Case Note']/../../span (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at CommonMethods.Helper.GetText(Helper.java:375)
+at POM.PerformInspectionUtility.CDP_ValidationMessageForAddCaseNoteField(PerformInspectionUtility.java:1457)
+at TestCases.PerformInspection.CDP_ValidationMessageForAddCaseNoteField(PerformInspection.java:379)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CDP_ValidationMessageForAddCaseNoteField -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:54:40 IST" name="flushReport" finished-at="2023-09-22T16:54:40 IST" duration-ms="439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.CDP_ValidationMessageForAddCaseNoteField()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CDP_ValidationMessageForAddCaseNoteField status=FAILURE method=PerformInspection.CDP_ValidationMessageForAddCaseNoteField()[pri:125, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="CDP_validationMsgForMoreThan5000Characters()[pri:126, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:54:40 IST" name="CDP_validationMsgForMoreThan5000Characters" finished-at="2023-09-22T16:58:12 IST" duration-ms="211727" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //label[@title='Add Case Note']/../../span (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //label[@title='Add Case Note']/../../span (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at CommonMethods.Helper.GetText(Helper.java:375)
+at POM.PerformInspectionUtility.CDP_validationMsgForMoreThan5000Characters(PerformInspectionUtility.java:1474)
+at TestCases.PerformInspection.CDP_validationMsgForMoreThan5000Characters(PerformInspection.java:384)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CDP_validationMsgForMoreThan5000Characters -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:58:12 IST" name="flushReport" finished-at="2023-09-22T16:58:12 IST" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.CDP_validationMsgForMoreThan5000Characters()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CDP_validationMsgForMoreThan5000Characters status=FAILURE method=PerformInspection.CDP_validationMsgForMoreThan5000Characters()[pri:126, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method signature="CDP_VerifyCaseNoteGetsAdded()[pri:127, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:58:12 IST" name="CDP_VerifyCaseNoteGetsAdded" finished-at="2023-09-22T16:58:23 IST" duration-ms="11173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CDP_VerifyCaseNoteGetsAdded -->
+        <test-method is-config="true" signature="flushReport(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:58:23 IST" name="flushReport" finished-at="2023-09-22T16:58:23 IST" duration-ms="65" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.PerformInspection.CDP_VerifyCaseNoteGetsAdded() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CDP_VerifyCaseNoteGetsAdded status=SUCCESS method=PerformInspection.CDP_VerifyCaseNoteGetsAdded()[pri:127, instance:TestCases.PerformInspection@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:58:23 IST" name="closeDriver" finished-at="2023-09-22T16:58:24 IST" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:TestCases.PerformInspection@14028087]" started-at="2023-09-22T16:58:24 IST" name="endReport" finished-at="2023-09-22T16:58:24 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.relevantcodes.extentreports.ExtentReports.flush()" because "BrowsersBase.BrowsersInvoked.extent" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.relevantcodes.extentreports.ExtentReports.flush()" because "BrowsersBase.BrowsersInvoked.extent" is null
+at BrowsersBase.BrowsersInvoked.endReport(BrowsersInvoked.java:252)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:396)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- TestCases.PerformInspection -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

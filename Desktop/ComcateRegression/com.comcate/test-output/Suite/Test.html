@@ -1,0 +1,789 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>56/8/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 22 16:37:07 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>1277 seconds (1277253 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_AddAViolation()'><b>PerformInspection_AddAViolation</b><br>Test class: TestCases.PerformInspection</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at POM.PerformInspectionUtility.PerformInspection_AddAViolation(PerformInspectionUtility.java:416)
+	at TestCases.PerformInspection.PerformInspection_AddAViolation(PerformInspection.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1579569668", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1579569668'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at POM.PerformInspectionUtility.PerformInspection_AddAViolation(PerformInspectionUtility.java:416)
+	at TestCases.PerformInspection.PerformInspection_AddAViolation(PerformInspection.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>2</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_UpdateNoticeIssueDate()'><b>PerformInspection_UpdateNoticeIssueDate</b><br>Test class: TestCases.PerformInspection</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //button[text()=&apos;New Notice&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at CommonMethods.Helper.ClickOn(Helper.java:329)
+	at POM.PerformInspectionUtility.PerformInspection_UpdateNoticeIssueDate(PerformInspectionUtility.java:770)
+	at TestCases.PerformInspection.PerformInspection_UpdateNoticeIssueDate(PerformInspection.java:204)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[text()=&apos;New Notice&apos;]&quot;}
+  (Session info: chrome=115.0.5790.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [34519603af658fce113f78f5281237a6, findElement {using=xpath, value=//button[text()=&apos;New Notice&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 18 more
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1771400823", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1771400823'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //button[text()=&apos;New Notice&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at CommonMethods.Helper.ClickOn(Helper.java:329)
+	at POM.PerformInspectionUtility.PerformInspection_UpdateNoticeIssueDate(PerformInspectionUtility.java:770)
+	at TestCases.PerformInspection.PerformInspection_UpdateNoticeIssueDate(PerformInspection.java:204)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[text()=&apos;New Notice&apos;]&quot;}
+  (Session info: chrome=115.0.5790.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [34519603af658fce113f78f5281237a6, findElement {using=xpath, value=//button[text()=&apos;New Notice&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 18 more
+</pre></div></td>
+<td>91</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_VerifyContinueButtonPresenceOnHtmlSelected()'><b>PerformInspection_VerifyContinueButtonPresenceOnHtmlSelected</b><br>Test class: TestCases.PerformInspection</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of any elements located by By.xpath: //div[@class=&apos;notice-list row&apos;]//button (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at CommonMethods.Helper.WaitUntilVisibleList(Helper.java:324)
+	at POM.PerformInspectionUtility.PerformInspection_VerifyContinueButtonPresenceOnHtmlSelected(PerformInspectionUtility.java:814)
+	at TestCases.PerformInspection.PerformInspection_VerifyContinueButtonPresenceOnHtmlSelected(PerformInspection.java:215)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace742680838", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace742680838'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of any elements located by By.xpath: //div[@class=&apos;notice-list row&apos;]//button (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at CommonMethods.Helper.WaitUntilVisibleList(Helper.java:324)
+	at POM.PerformInspectionUtility.PerformInspection_VerifyContinueButtonPresenceOnHtmlSelected(PerformInspectionUtility.java:814)
+	at TestCases.PerformInspection.PerformInspection_VerifyContinueButtonPresenceOnHtmlSelected(PerformInspection.java:215)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>60</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_VerifyFirstNoticeState()'><b>PerformInspection_VerifyFirstNoticeState</b><br>Test class: TestCases.PerformInspection</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class=&apos;notice-list row&apos;]//button)[2] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at CommonMethods.Helper.findElement(Helper.java:514)
+	at POM.PerformInspectionUtility.PerformInspection_VerifyFirstNoticeState(PerformInspectionUtility.java:703)
+	at TestCases.PerformInspection.PerformInspection_VerifyFirstNoticeState(PerformInspection.java:183)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1119549196", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1119549196'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class=&apos;notice-list row&apos;]//button)[2] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at CommonMethods.Helper.findElement(Helper.java:514)
+	at POM.PerformInspectionUtility.PerformInspection_VerifyFirstNoticeState(PerformInspectionUtility.java:703)
+	at TestCases.PerformInspection.PerformInspection_VerifyFirstNoticeState(PerformInspection.java:183)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>97</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.CDP_validationMsgForMoreThan5000Characters()'><b>CDP_validationMsgForMoreThan5000Characters</b><br>Test class: TestCases.PerformInspection</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //label[@title=&apos;Add Case Note&apos;]/../../span (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at CommonMethods.Helper.GetText(Helper.java:375)
+	at POM.PerformInspectionUtility.CDP_validationMsgForMoreThan5000Characters(PerformInspectionUtility.java:1474)
+	at TestCases.PerformInspection.CDP_validationMsgForMoreThan5000Characters(PerformInspection.java:384)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1507167852", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1507167852'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //label[@title=&apos;Add Case Note&apos;]/../../span (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at CommonMethods.Helper.GetText(Helper.java:375)
+	at POM.PerformInspectionUtility.CDP_validationMsgForMoreThan5000Characters(PerformInspectionUtility.java:1474)
+	at TestCases.PerformInspection.CDP_validationMsgForMoreThan5000Characters(PerformInspection.java:384)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>211</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_SelectAnyNotice()'><b>PerformInspection_SelectAnyNotice</b><br>Test class: TestCases.PerformInspection</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;notice-list row&apos;]//button[2]&quot;}
+  (Session info: chrome=115.0.5790.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [34519603af658fce113f78f5281237a6, findElement {using=xpath, value=//div[@class=&apos;notice-list row&apos;]//button[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at CommonMethods.Helper.ClickByJsExecuter(Helper.java:426)
+	at POM.PerformInspectionUtility.PerformInspection_SelectAnyNotice(PerformInspectionUtility.java:716)
+	at TestCases.PerformInspection.PerformInspection_SelectAnyNotice(PerformInspection.java:188)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace513526625", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace513526625'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;notice-list row&apos;]//button[2]&quot;}
+  (Session info: chrome=115.0.5790.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [34519603af658fce113f78f5281237a6, findElement {using=xpath, value=//div[@class=&apos;notice-list row&apos;]//button[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at CommonMethods.Helper.ClickByJsExecuter(Helper.java:426)
+	at POM.PerformInspectionUtility.PerformInspection_SelectAnyNotice(PerformInspectionUtility.java:716)
+	at TestCases.PerformInspection.PerformInspection_SelectAnyNotice(PerformInspection.java:188)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>123</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_SelectNoNoticeRequiredCheckbox()'><b>PerformInspection_SelectNoNoticeRequiredCheckbox</b><br>Test class: TestCases.PerformInspection</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[text()=&apos;No Notice&apos;] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:262)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at CommonMethods.Helper.WaitUntilVisibleWE(Helper.java:302)
+	at POM.PerformInspectionUtility.PerformInspection_SelectNoNoticeRequiredCheckbox(PerformInspectionUtility.java:756)
+	at TestCases.PerformInspection.PerformInspection_SelectNoNoticeRequiredCheckbox(PerformInspection.java:198)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace454436957", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace454436957'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[text()=&apos;No Notice&apos;] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:262)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at CommonMethods.Helper.WaitUntilVisibleWE(Helper.java:302)
+	at POM.PerformInspectionUtility.PerformInspection_SelectNoNoticeRequiredCheckbox(PerformInspectionUtility.java:756)
+	at TestCases.PerformInspection.PerformInspection_SelectNoNoticeRequiredCheckbox(PerformInspection.java:198)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>62</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.CDP_ValidationMessageForAddCaseNoteField()'><b>CDP_ValidationMessageForAddCaseNoteField</b><br>Test class: TestCases.PerformInspection</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //label[@title=&apos;Add Case Note&apos;]/../../span (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at CommonMethods.Helper.GetText(Helper.java:375)
+	at POM.PerformInspectionUtility.CDP_ValidationMessageForAddCaseNoteField(PerformInspectionUtility.java:1457)
+	at TestCases.PerformInspection.CDP_ValidationMessageForAddCaseNoteField(PerformInspection.java:379)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2017652956", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2017652956'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //label[@title=&apos;Add Case Note&apos;]/../../span (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58844/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34519603af658fce113f78f5281237a6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at CommonMethods.Helper.GetText(Helper.java:375)
+	at POM.PerformInspectionUtility.CDP_ValidationMessageForAddCaseNoteField(PerformInspectionUtility.java:1457)
+	at TestCases.PerformInspection.CDP_ValidationMessageForAddCaseNoteField(PerformInspection.java:379)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>93</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.PerformInspection.LoginAgency()'><b>LoginAgency</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>29</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_OpenGenerateNoticepopup()'><b>PerformInspection_OpenGenerateNoticepopup</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>1</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_VerifyOpenStatusForViolation()'><b>PerformInspection_VerifyOpenStatusForViolation</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_OpenConfirmationPopupForCompleteInspection()'><b>PerformInspection_OpenConfirmationPopupForCompleteInspection</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_OpenConfirmationPopupOnExitButton()'><b>PerformInspection_OpenConfirmationPopupOnExitButton</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_VerifyRecipientSubSectionPresence()'><b>PerformInspection_VerifyRecipientSubSectionPresence</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_AddAttachment()'><b>PerformInspection_AddAttachment</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>6</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_CloseGenerateNoticePopup()'><b>PerformInspection_CloseGenerateNoticePopup</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>4</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_VerifySection2Title()'><b>PerformInspection_VerifySection2Title</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_ExpandSection2OnContinue()'><b>PerformInspection_ExpandSection2OnContinue</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_AddInspectionNote()'><b>PerformInspection_AddInspectionNote</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_VerifyVerificationPendingStatusForViolation()'><b>PerformInspection_VerifyVerificationPendingStatusForViolation</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_OpenCloseCasePopup()'><b>PerformInspection_OpenCloseCasePopup</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.FollowUpInspection_OpenFollowUpInspectionInProgressPopup()'><b>FollowUpInspection_OpenFollowUpInspectionInProgressPopup</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>4</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_VerifyTheNoticeIssued()'><b>PerformInspection_VerifyTheNoticeIssued</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>133</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_VerifySection1Label()'><b>PerformInspection_VerifySection1Label</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_SelectForcedToggleButton()'><b>PerformInspection_SelectForcedToggleButton</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.CDP_VerifyOpenAddCaseNotePopup()'><b>CDP_VerifyOpenAddCaseNotePopup</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_VerifySection3Title()'><b>PerformInspection_VerifySection3Title</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>60</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_OpenConfirmationPopupForCloseCaseButton()'><b>PerformInspection_OpenConfirmationPopupForCloseCaseButton</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_SelectAnyToggleButtonForViolation()'><b>PerformInspection_SelectAnyToggleButtonForViolation</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.FollowUpInspection_PerformFollowUpInspection()'><b>FollowUpInspection_PerformFollowUpInspection</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>12</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_OpenVerificationInspectionInProgressPage()'><b>PerformInspection_OpenVerificationInspectionInProgressPage</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>2</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.FollowUpInspection_VerifyEditedDetails()'><b>FollowUpInspection_VerifyEditedDetails</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_VerifyContinueButtonPresence()'><b>PerformInspection_VerifyContinueButtonPresence</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_VerifyViolationsUnderReviewOpenViolations()'><b>PerformInspection_VerifyViolationsUnderReviewOpenViolations</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>1</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_VerifySection1Status()'><b>PerformInspection_VerifySection1Status</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.FollowUpInspection_OpenEditFollowUpInspectionPopup()'><b>FollowUpInspection_OpenEditFollowUpInspectionPopup</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>1</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_VerifyLoggedInUserToggleButtonState()'><b>PerformInspection_VerifyLoggedInUserToggleButtonState</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.CCP_CDP_EditLocation()'><b>CCP_CDP_EditLocation</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>44</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_CloseCloseCasePopup()'><b>PerformInspection_CloseCloseCasePopup</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>4</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_VerifyResponsiblePartySectionPresence()'><b>PerformInspection_VerifyResponsiblePartySectionPresence</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.FollowUpInspection_VerifyInspectViolationsHeadersection1()'><b>FollowUpInspection_VerifyInspectViolationsHeadersection1</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>2</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_CloseConfirmationPopupOnCancel()'><b>PerformInspection_CloseConfirmationPopupOnCancel</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>4</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.CDP_VerifyPopopClosesOnclickingCancel()'><b>CDP_VerifyPopopClosesOnclickingCancel</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>6</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_EditVerifyViolationSection()'><b>PerformInspection_EditVerifyViolationSection</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>123</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_VerifyRecipientNoLongerMandatory()'><b>PerformInspection_VerifyRecipientNoLongerMandatory</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>3</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.FollowUpInspection_VerifyFollowUpInspectionSubSection()'><b>FollowUpInspection_VerifyFollowUpInspectionSubSection</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_UpdateComplyByDate()'><b>PerformInspection_UpdateComplyByDate</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>2</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_VerifyVoluntaryToggleButtonState()'><b>PerformInspection_VerifyVoluntaryToggleButtonState</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.CDP_PerformInspection_AddedNoteVerification()'><b>CDP_PerformInspection_AddedNoteVerification</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_EnterCertifiedMailNumber()'><b>PerformInspection_EnterCertifiedMailNumber</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_CloseConfirmationPopup()'><b>PerformInspection_CloseConfirmationPopup</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>6</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_SelectMultipleContact()'><b>PerformInspection_SelectMultipleContact</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_VerifyClosedStatusForViolation()'><b>PerformInspection_VerifyClosedStatusForViolation</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_SelectAnyToggleButton()'><b>PerformInspection_SelectAnyToggleButton</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_ExpandSection3()'><b>PerformInspection_ExpandSection3</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_VerifyIssueNoticeAndCompleteInspectionButton()'><b>PerformInspection_VerifyIssueNoticeAndCompleteInspectionButton</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>30</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.CDP_VerifyCaseNoteGetsAdded()'><b>CDP_VerifyCaseNoteGetsAdded</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>11</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_UpdateFollowUpInspectionDate()'><b>PerformInspection_UpdateFollowUpInspectionDate</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_AddTextToTextBox()'><b>PerformInspection_AddTextToTextBox</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>3</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_VerifyPrintToggleButtonState()'><b>PerformInspection_VerifyPrintToggleButtonState</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_PreRequisite_Contacts()'><b>PerformInspection_PreRequisite_Contacts</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_ValidationMessageSection1()'><b>PerformInspection_ValidationMessageSection1</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.FollowUpInspection_VerifyFollowUpInspection2Title()'><b>FollowUpInspection_VerifyFollowUpInspection2Title</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>0</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+<tr>
+<td title='TestCases.PerformInspection.PerformInspection_CloseConfirmationPopupForExitButto()'><b>PerformInspection_CloseConfirmationPopupForExitButto</b><br>Test class: TestCases.PerformInspection</td>
+<td></td>
+<td>4</td>
+<td>TestCases.PerformInspection@14028087</td></tr>
+</table><p>
+</body>
+</html>
