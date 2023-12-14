@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20231204 11:58:08.393" rpa="false" schemaversion="4">
+<suite id="s1" name="BasicSearch" source="C:\Users\lenovo\Desktop\RobotFrameWork\Tests\eBay\BasicSearch.robot">
+<test id="s1-t1" name="Verify basic search functionality for eBay" line="18">
+<kw name="Start TestCase" library="CommonFunctions" type="SETUP">
+<kw name="Open Browser">
+<arg>${url.${env}}</arg>
+<arg>${browser}</arg>
+<msg timestamp="20231204 11:58:08.458" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20231204 11:58:08.458" endtime="20231204 11:58:08.458"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20231204 11:58:08.458" endtime="20231204 11:58:08.458"/>
+</kw>
+<status status="FAIL" starttime="20231204 11:58:08.455" endtime="20231204 11:58:08.459"/>
+</kw>
+<kw name="Finish TestCase" library="CommonFunctions" type="TEARDOWN">
+<kw name="Close Browser">
+<msg timestamp="20231204 11:58:08.462" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20231204 11:58:08.462" endtime="20231204 11:58:08.462"/>
+</kw>
+<status status="FAIL" starttime="20231204 11:58:08.460" endtime="20231204 11:58:08.462">No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>This test case verifies the basic search</doc>
+<tag>Functional</tag>
+<status status="FAIL" starttime="20231204 11:58:08.454" endtime="20231204 11:58:08.463">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-t2" name="Verify search for shoes" line="25">
+<kw name="Start TestCase" library="CommonFunctions" type="SETUP">
+<kw name="Open Browser">
+<arg>${url.${env}}</arg>
+<arg>${browser}</arg>
+<msg timestamp="20231204 11:58:08.467" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20231204 11:58:08.467" endtime="20231204 11:58:08.467"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20231204 11:58:08.467" endtime="20231204 11:58:08.467"/>
+</kw>
+<status status="FAIL" starttime="20231204 11:58:08.465" endtime="20231204 11:58:08.467"/>
+</kw>
+<kw name="Finish TestCase" library="CommonFunctions" type="TEARDOWN">
+<kw name="Close Browser">
+<msg timestamp="20231204 11:58:08.470" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20231204 11:58:08.470" endtime="20231204 11:58:08.470"/>
+</kw>
+<status status="FAIL" starttime="20231204 11:58:08.468" endtime="20231204 11:58:08.470">No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>This test case verifies the serach for mobile</doc>
+<tag>Functional</tag>
+<status status="FAIL" starttime="20231204 11:58:08.464" endtime="20231204 11:58:08.471">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-t3" name="Verif click on AdvanceSerach Button" line="32">
+<kw name="Start TestCase" library="CommonFunctions" type="SETUP">
+<kw name="Open Browser">
+<arg>${url.${env}}</arg>
+<arg>${browser}</arg>
+<msg timestamp="20231204 11:58:08.475" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20231204 11:58:08.475" endtime="20231204 11:58:08.475"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20231204 11:58:08.476" endtime="20231204 11:58:08.476"/>
+</kw>
+<status status="FAIL" starttime="20231204 11:58:08.473" endtime="20231204 11:58:08.476"/>
+</kw>
+<kw name="Finish TestCase" library="CommonFunctions" type="TEARDOWN">
+<kw name="Close Browser">
+<msg timestamp="20231204 11:58:08.478" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20231204 11:58:08.478" endtime="20231204 11:58:08.478"/>
+</kw>
+<status status="FAIL" starttime="20231204 11:58:08.476" endtime="20231204 11:58:08.478">No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>This test case verifies Advance search Button</doc>
+<tag>Functional</tag>
+<status status="FAIL" starttime="20231204 11:58:08.472" endtime="20231204 11:58:08.478">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-t4" name="Verify basic search functionality for eBay Arguments" line="38">
+<kw name="Start TestCase" library="CommonFunctions" type="SETUP">
+<kw name="Open Browser">
+<arg>${url.${env}}</arg>
+<arg>${browser}</arg>
+<msg timestamp="20231204 11:58:08.483" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20231204 11:58:08.483" endtime="20231204 11:58:08.483"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20231204 11:58:08.483" endtime="20231204 11:58:08.483"/>
+</kw>
+<status status="FAIL" starttime="20231204 11:58:08.481" endtime="20231204 11:58:08.483"/>
+</kw>
+<kw name="Finish TestCase" library="CommonFunctions" type="TEARDOWN">
+<kw name="Close Browser">
+<msg timestamp="20231204 11:58:08.488" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20231204 11:58:08.488" endtime="20231204 11:58:08.488"/>
+</kw>
+<status status="FAIL" starttime="20231204 11:58:08.484" endtime="20231204 11:58:08.489">No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>This test case verifies the basic search</doc>
+<tag>Functional</tag>
+<status status="FAIL" starttime="20231204 11:58:08.480" endtime="20231204 11:58:08.489">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-t5" name="Verify basic search functionality for eBay Arguments Books" line="46">
+<kw name="Start TestCase" library="CommonFunctions" type="SETUP">
+<kw name="Open Browser">
+<arg>${url.${env}}</arg>
+<arg>${browser}</arg>
+<msg timestamp="20231204 11:58:08.494" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20231204 11:58:08.493" endtime="20231204 11:58:08.494"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20231204 11:58:08.494" endtime="20231204 11:58:08.494"/>
+</kw>
+<status status="FAIL" starttime="20231204 11:58:08.492" endtime="20231204 11:58:08.494"/>
+</kw>
+<kw name="Finish TestCase" library="CommonFunctions" type="TEARDOWN">
+<kw name="Close Browser">
+<msg timestamp="20231204 11:58:08.497" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20231204 11:58:08.497" endtime="20231204 11:58:08.497"/>
+</kw>
+<status status="FAIL" starttime="20231204 11:58:08.495" endtime="20231204 11:58:08.498">No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>This test case verifies the basic search</doc>
+<tag>Functional</tag>
+<status status="FAIL" starttime="20231204 11:58:08.491" endtime="20231204 11:58:08.499">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-t6" name="Verify basic search functionality for eBay Arguments Travel" line="54">
+<kw name="Start TestCase" library="CommonFunctions" type="SETUP">
+<kw name="Open Browser">
+<arg>${url.${env}}</arg>
+<arg>${browser}</arg>
+<msg timestamp="20231204 11:58:08.505" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20231204 11:58:08.505" endtime="20231204 11:58:08.505"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20231204 11:58:08.505" endtime="20231204 11:58:08.506"/>
+</kw>
+<status status="FAIL" starttime="20231204 11:58:08.501" endtime="20231204 11:58:08.506"/>
+</kw>
+<kw name="Finish TestCase" library="CommonFunctions" type="TEARDOWN">
+<kw name="Close Browser">
+<msg timestamp="20231204 11:58:08.509" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20231204 11:58:08.509" endtime="20231204 11:58:08.509"/>
+</kw>
+<status status="FAIL" starttime="20231204 11:58:08.506" endtime="20231204 11:58:08.509">No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>This test case verifies the basic search</doc>
+<tag>Functional</tag>
+<status status="FAIL" starttime="20231204 11:58:08.501" endtime="20231204 11:58:08.510">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<doc>Basic Serarch Functionality</doc>
+<status status="FAIL" starttime="20231204 11:58:08.395" endtime="20231204 11:58:08.512"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="6" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="6" skip="0">Functional</stat>
+</tag>
+<suite>
+<stat pass="0" fail="6" skip="0" id="s1" name="BasicSearch">BasicSearch</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20231204 11:58:08.426" level="ERROR">Error in file 'C:\Users\lenovo\Desktop\RobotFrameWork\Tests\eBay\BasicSearch.robot' on line 4: Importing library 'RPA.FTP' failed: ModuleNotFoundError: No module named 'RPA'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\Scripts\robot.exe
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\python311.zip
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\DLLs
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\Lib
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages</msg>
+<msg timestamp="20231204 11:58:08.431" level="ERROR">Error in file 'C:\Users\lenovo\Desktop\RobotFrameWork\Resources\CommonFunctions.robot' on line 2: Importing library 'RPA.Browser.Selenium' failed: ModuleNotFoundError: No module named 'RPA'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\Scripts\robot.exe
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\python311.zip
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\DLLs
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\Lib
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages</msg>
+<msg timestamp="20231204 11:58:08.437" level="ERROR">Error in file 'C:\Users\lenovo\Desktop\RobotFrameWork\Resources\eBay_UserDefinedKeyWords.robot' on line 3: Importing library 'RPA.Browser.Selenium' failed: ModuleNotFoundError: No module named 'RPA'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\Scripts\robot.exe
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\python311.zip
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\DLLs
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\Lib
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages</msg>
+<msg timestamp="20231204 11:58:08.444" level="ERROR">Error in file 'C:\Users\lenovo\Desktop\RobotFrameWork\Resources\PageObjects\HeaderPage.robot' on line 2: Importing library 'RPA.Browser.Selenium' failed: ModuleNotFoundError: No module named 'RPA'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\Scripts\robot.exe
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\python311.zip
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\DLLs
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\Lib
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages</msg>
+<msg timestamp="20231204 11:58:08.449" level="ERROR">Error in file 'C:\Users\lenovo\Desktop\RobotFrameWork\Resources\PageObjects\SearchResultsPage.robot' on line 2: Importing library 'RPA.Browser.Selenium' failed: ModuleNotFoundError: No module named 'RPA'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\Scripts\robot.exe
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\python311.zip
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\DLLs
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\Lib
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311
+  C:\Users\lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages</msg>
+</errors>
+</robot>
