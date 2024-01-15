@@ -1,0 +1,5 @@
+{
+"username" : ["standard_us","locked_out_user",""],
+"password" : ["secret_sauce","secret_sauce",""],
+"error" : ["Epic sadface: Username and password do not match any user in this service","Epic sadface: Sorry, this user has been locked out.","Epic sadface: Username is required"]
+}
