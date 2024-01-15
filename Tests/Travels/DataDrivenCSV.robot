@@ -1,6 +1,10 @@
 *** Settings ***
 Library    RPA.Browser.Selenium
-Test Template    Invalid Login Scenarios
+Library    OperatingSystem 
+Library    String
+Library    Collections
+    
+  
 
 *** Variables ***
 ${url}    https://www.saucedemo.com    
@@ -9,16 +13,37 @@ ${txt_Username}   id:user-name
 ${txt_Password}    id:password
 ${loginBtn}     xpath://input[@id='login-button']
 ${txt_error}    xpath://h3[@data-test='error']
+${CSV_filePath}    TestData//TestDataCSV.csv
+@{csv_Content}
+${fileContent}
+${username}
+${password}
+${error}
 
-*** Test Cases ***                                        USERNAME    PASSWORD    ERROR  
-Verify Login Fails - Blank username And password           ${EMPTY}    ${EMPTY}    Epic sadface: Username is required
-Verifies Login Fails - Wrong Username                      standard_us    secret_sauce    Epic sadface: Username and password do not match any user in this service    
-Verifies Login Fails - LockedOut User                      locked_out_user    secret_sauce    Epic sadface: Sorry, this user has been locked out.
-
+*** Test Cases ***
+Data CSV Test Cases
+    [Documentation]
+    ${csv_content}=    Read CSV File    ${CSV_filePath} 
+    FOR    ${lines}    IN    ${csv_content}[1:]
+        FOR    ${i}    IN RANGE    0    ${lines.__len__()}    
+            ${line}=    Set Variable    ${lines}[${i}]
+            ${values}=    Split String    ${line}    ,
+            ${username}=    Set Variable    ${values}[0]
+            ${password}=    Set Variable    ${values}[1]
+            ${error}=    Set Variable    ${values}[2]
+           
+            Run Keyword    Verify User Login    ${username}    ${password}    ${error}  
+            
+        END
+      
+       
+    END
+   
 
 *** Keywords ***
-Invalid Login Scenarios   
-    [Arguments]    ${username}    ${password}    ${error_msg}
+   
+Verify User Login
+    [Arguments]    ${username}    ${password}    ${error}    
     Open Browser    ${url}    ${browser}
     Maximize Browser Window 
     Sleep    3s
@@ -26,13 +51,16 @@ Invalid Login Scenarios
     Input Text    ${txt_Password}    ${password}
     Click Button    ${loginBtn}
     Sleep    3s
-    Element Should Contain    ${txt_error}    ${error_msg}
+    Element Should Contain    ${txt_error}    ${error}
 
-
-
-
-
-
+   
+Read CSV File
+    [Arguments]    ${filePath}
+    ${fileContent}=    Get File    ${filePath}
+    @{csvRows}=   Split To Lines    ${fileContent}
+    ${csvContent}=    Evaluate    [list(item.split(';')) for item in "${csvRows}"]
+    [Return]    ${csvRows}
+ 
 
 
 
